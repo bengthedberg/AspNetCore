@@ -68,7 +68,7 @@
   </Target>
 
   <ItemGroup>
-    <Reference Include="Microsoft.AspNetCore.Components.Browser.JS" />
+    <ProjectReference Include="../../../Browser.JS/src/Microsoft.AspNetCore.Components.Browser.JS.csproj" />
     <Reference Include="Microsoft.AspNetCore.Components" />
     <Reference Include="Microsoft.Extensions.CommandLineUtils.Sources" PrivateAssets="All" />
     <Reference Include="Microsoft.Extensions.FileProviders.Composite" />
